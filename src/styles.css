@@ -1,0 +1,142 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.site-title {
+  width: 25%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#search-bar {
+  width: 35%;
+  margin: auto;
+}
+
+#about-content {
+  margin-bottom: 50px;
+}
+
+.newscards {
+  height: 100%;
+}
+
+.text-button {
+  text-decoration: underline;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  border-radius: 8px;
+  position: fixed;
+  background: white;
+  width: 60%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5%;
+  font-size: medium;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.column {
+  width: 45%;
+  display: inline-block;
+  margin: 2%;
+}
+
+.news-card {
+  box-shadow: 2px grey;
+  height: 400px;
+  box-shadow: 4px 4px 4px grey;
+  border-radius: 12px;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  margin: 8px;
+  overflow: hidden;
+}
+
+.article-content {
+}
+
+#liberal .news-card a:link {
+  color: darkblue;
+  text-decoration: none;
+}
+
+#liberal .news-card a:link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#conservative .news-card a:link {
+  color: red;
+  text-decoration: none;
+}
+
+#conservative .news-card a:link:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.news-card a:link :hover {
+  color: blue;
+}
+
+#liberal {
+  float: left;
+}
+
+#conservative {
+  float: right;
+}
+
+.small-img {
+  width: 50%;
+  border-radius: 4px;
+  padding-left: 25%;
+  margin: auto;
+}
+
+.source-note {
+  font-size: small;
+}
+
+button {
+  border-radius: 4px;
+}
+
+.tiny-text {
+  font-size: x-small;
+}
+
+.footer-content-wrapper {
+  width: 75%;
+  height: 30px;
+  margin: auto;
+}
+
+.footer-content {
+  font-size: x-small;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
